@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1><mark>Imagem dinamica</mark></h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes, ou simplesmente aumente e diminua o tamanho de seu navegador.</p>
+
+    <picture>
+        <source media="(max-width: 650px)" srcset="imagens/fotoP.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/fotoM.png" type="image/png">
+        <img src="imagens/fotoG.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1><mark>Reproduzindo aúdios</mark></h1>
+    <p>Vamos reproduzir aúdios em html 5</p>
+    <audio preload="metadata" controls loop>
+        <source src="midia/Flames - Dan Henig.mp3" type="audio/mpeg">
+        <source src="midia/Flames - Dan Henig.mp3" type="audio/ogg">
+        <source src="midia/Flames - Dan Henig.mp3" type="audio/wav">
+        <p>infelizmente seu navegador não conseguiu reproduzir o aúdio, link para dowload:</p>
+        <a href="midia/Flames - Dan Henig.mp3" rel="external" target="_blank" download="Flames.mp3">Dowload</a>
+    </audio>
+</body>
+</html>
