@@ -3,21 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Fundo Fixo na tela</title>
     <style>
         body {
-            height: 100vh;
+            /*
             background-color: black;
             background-image: url(imagens/wallpaper002.jpg);
             background-position: center top;
             background-repeat: no-repeat;
+            background-attachment: fixed;
+            */
+            height: 100vh;
             background-size: cover;
+            background: black url(imagens/wallpaper002.jpg) center top no-repeat fixed; 
         }
+
+        /*
+            shorthand para background:
+            background: [color] [image] [position] [repeat] [attachment];
+         */
 
         main {
             background-color: white;
             border-radius: 15px;
-            width: 400px;
+            max-width: 700px;
             padding: 10px;
             margin: auto;
             border: 1px outset black;
@@ -28,7 +37,16 @@
 <body>
     <main>
         <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure.</p>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure</p>
+
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure.Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi, quia odit! A in necessitatibus perspiciatis, tempore ratione ex recusandae maxime at dolorem, quae alias! Minima ratione magni unde dolor velit! Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit voluptates accusantium atque facere rerum nesciunt ipsa quasi odit repellat, autem iste praesentium amet a odio id aliquid facilis velit esse! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos ipsam id labore corrupti delectus tempore modi sequi omnis enim deserunt eligendi ratione aspernatur, impedit eius? Non eius natus sunt iure</p>
+
     </main>
 </body>
 </html>
