@@ -1,0 +1,1 @@
+OS dados forma enviados para o servidor, e o script PHP pode processá-los usando a variável superglobal $_POST. O código a seguir mostra um exemplo de como acessar os dados enviados por um formulário HTML usando $_POST:
